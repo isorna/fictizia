@@ -1,4 +1,4 @@
-fictizia
+Fictizia
 ========
 
 Fictizia training academy repository.
