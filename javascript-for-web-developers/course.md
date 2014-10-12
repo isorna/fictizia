@@ -300,6 +300,15 @@ Thus, the `add` function in the above example, which is created when `makeAddFun
 
 When this returned function (`addTwo` or `addFive`) is called, a new environment -in which the variable `number` has a value― is created, as a sub-environment of the captured environment (in which `amount` has a value). These two values are then added, and the result is returned.
 
+### Error Handling
+
+```js
+function throwStack(){
+  var err = new Error();
+  return err.stack;
+}
+```
+
 ### Callbacks / async
 
 ### Bind, defer, throttle, curry
